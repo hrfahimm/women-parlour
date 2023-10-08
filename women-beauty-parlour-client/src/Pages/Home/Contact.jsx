@@ -59,6 +59,15 @@ const Contact = () => {
                         className='input input-bordered'
                     />
                 </div>
+                <div className='form-control'>
+                    <input
+                        type='email'
+                        name='email'
+                        {...register("Phonenumber", { required: true })}
+                        placeholder='Phonenumber'
+                        className='input input-bordered'
+                    />
+                </div>
 
                 <div className='form-control m-2 text-center items-center  '>
                     <input
